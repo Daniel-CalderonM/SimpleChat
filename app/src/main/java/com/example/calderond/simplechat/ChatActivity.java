@@ -95,8 +95,6 @@ public class ChatActivity extends AppCompatActivity {
                             }
                         });
     }//CLose TOp
-
-
     // Create an anonymous user using ParseAnonymousUtils and set sUserId
     void login() {
         ParseAnonymousUtils.logIn(new LogInCallback() {
